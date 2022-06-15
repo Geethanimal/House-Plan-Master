@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633143939749",
+    "project_id": "house-planning-app",
+    "storage_bucket": "house-planning-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633143939749:android:5bd565b84fb62e0bfa334c",
+        "android_client_info": {
+          "package_name": "com.myexample.houseplaning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633143939749-l6pkllqbipis8r15iff7q0n634jisjit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRZwUVSmFKJPSf7gmDofoiIXo22nB2KVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633143939749-l6pkllqbipis8r15iff7q0n634jisjit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
