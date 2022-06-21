@@ -1,0 +1,35 @@
+
+{"intents":
+    [
+        {
+            "tag":"1",
+            "input":["11"],
+            "responses":["P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11"]
+        },
+        {
+            "tag":"2",
+            "input":["12"],
+            "responses":["P12,P13"]
+        },
+        {
+            "tag":"3",
+            "input":["21"],
+            "responses":["B1,B4,B5,B9"]
+        },
+        {
+            "tag":"4",
+            "input":["22"],
+            "responses":["B2,B3,B6,B7"]
+        },
+        {
+            "tag":"5",
+            "input":["31"],
+            "responses":["R3,R6,R10"]
+        },
+        {
+            "tag":"6",
+            "input":["32"],
+            "responses":["R1,R2,R4,R5,R7,R8,R9"]
+        }
+    ]    
+   }
