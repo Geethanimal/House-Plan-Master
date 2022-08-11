@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.houseplanapp">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HousePlanApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ShowingReq"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.HousePlanApp.NoActionBar"></activity>
+        <activity
+            android:name=".PasswordUpdated"
+            android:exported="false" />
+        <activity
+            android:name=".NewPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Verification"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>
